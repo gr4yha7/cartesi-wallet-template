@@ -66,7 +66,7 @@
     "eslint-config-prettier": "^9.1.0",
     "giget": "^1.1",
     "mocha": "^10",
-    "oclif": "^4.5.4",
+    "oclif": "^4.6.1",
     "ora": "^8.0.1",
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
