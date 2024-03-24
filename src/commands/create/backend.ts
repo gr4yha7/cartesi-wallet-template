@@ -25,13 +25,13 @@ export default class CreateCommand extends Command {
             options: [
               "javascript",
               "typescript",
+              "rust",
                 // "cpp",
                 // "cpp-low-level",
                 // "go",
                 // "lua",
                 // "python",
                 // "ruby",
-                // "rust",
             ],
         }),
         branch: Flags.string({
