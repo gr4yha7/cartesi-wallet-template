@@ -1,11 +1,10 @@
-oclif-hello-world
+create-cartesi-wallet-template
 =================
 
-oclif example Hello World CLI
+A CLI app for setting up a simple Cartesi wallet interaction application (frontend + backend) using Javascript and Rust language templates
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![GitHub license](https://img.shields.io/github/license/oclif/hello-world)](https://github.com/oclif/hello-world/blob/main/LICENSE)
+[![create-cartesi-wallet-template](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://github.com/gr4yha7/cartesi-hackathon)
+[![GitHub license](https://img.shields.io/github/license/gr4yha7/cartesi-hackathon)](https://github.com/gr4yha7/cartesi-hackathon/blob/main/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
