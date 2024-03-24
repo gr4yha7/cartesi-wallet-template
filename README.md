@@ -1,10 +1,7 @@
 create-cartesi-wallet-template
 =================
 
-A CLI app for setting up a simple Cartesi wallet interaction application (frontend + backend) using Javascript and Rust language templates
-
-[![create-cartesi-wallet-template](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://github.com/gr4yha7/cartesi-hackathon)
-[![GitHub license](https://img.shields.io/github/license/gr4yha7/cartesi-hackathon)](https://github.com/gr4yha7/cartesi-hackathon/blob/main/LICENSE)
+A CLI app for setting up a simple Cartesi wallet interaction application using Javascript, Typescript and Rust language templates
 
 <!-- toc -->
 * [Usage](#usage)

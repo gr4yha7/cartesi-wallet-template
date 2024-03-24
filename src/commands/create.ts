@@ -18,6 +18,15 @@ export default class CreateCommand extends Command {
     };
 
     static flags = {
+        template: Flags.string({
+            description: "template name to use",
+            required: true,
+            options: [
+              "javascript",
+              "typescript",
+              "rust",
+            ],
+        }),
         branch: Flags.string({
             description: 'repository branch name to use',
             default: DEFAULT_TEMPLATES_BRANCH,
@@ -25,14 +34,20 @@ export default class CreateCommand extends Command {
     };
 
     private async download(
+        template: string,
         branch: string,
         out: string,
     ): Promise<DownloadTemplateResult> {
-        const template = `https://codeload.github.com/prototyp3-dev/frontend-web-cartesi/tar.gz/refs/heads/${branch}`
-        return downloadTemplate(template, {
+        let langTemplate = ''
+        if (template === 'javascript') {
+            langTemplate = `https://codeload.github.com/ETIM-PAUL/cartesi_vault/tar.gz/refs/heads/${branch}`
+        } else if (template === 'rust') {
+            langTemplate = `https://codeload.github.com/gr4yha7/cartesi_vault_rust/tar.gz/refs/heads/${branch}`
+        }
+        return downloadTemplate(langTemplate, {
             dir: out,
             forceClean: true,
-            install: true
+            install: true,
         });
     }
 
@@ -41,6 +56,7 @@ export default class CreateCommand extends Command {
         const spinner = ora("Creating application...").start();
         try {
             const { dir } = await this.download(
+                flags.template,
                 flags.branch,
                 args.name,
             );
