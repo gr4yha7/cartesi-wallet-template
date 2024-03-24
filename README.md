@@ -14,40 +14,40 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g cli
-$ cli COMMAND
+$ npm install -g create-cartesi-wallet-template
+$ create-cartesi-wallet-template COMMAND
 running command...
-$ cli (--version)
-cli/0.0.0 darwin-arm64 node-v18.19.0
-$ cli --help [COMMAND]
+$ create-cartesi-wallet-template (--version)
+create-cartesi-wallet-template/0.2.0 darwin-arm64 node-v18.19.0
+$ create-cartesi-wallet-template --help [COMMAND]
 USAGE
-  $ cli COMMAND
+  $ create-cartesi-wallet-template COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`cli hello PERSON`](#cli-hello-person)
-* [`cli hello world`](#cli-hello-world)
-* [`cli help [COMMAND]`](#cli-help-command)
-* [`cli plugins`](#cli-plugins)
-* [`cli plugins:install PLUGIN...`](#cli-pluginsinstall-plugin)
-* [`cli plugins:inspect PLUGIN...`](#cli-pluginsinspect-plugin)
-* [`cli plugins:install PLUGIN...`](#cli-pluginsinstall-plugin-1)
-* [`cli plugins:link PLUGIN`](#cli-pluginslink-plugin)
-* [`cli plugins:uninstall PLUGIN...`](#cli-pluginsuninstall-plugin)
-* [`cli plugins reset`](#cli-plugins-reset)
-* [`cli plugins:uninstall PLUGIN...`](#cli-pluginsuninstall-plugin-1)
-* [`cli plugins:uninstall PLUGIN...`](#cli-pluginsuninstall-plugin-2)
-* [`cli plugins update`](#cli-plugins-update)
+* [`create-cartesi-wallet-template hello PERSON`](#create-cartesi-wallet-template-hello-person)
+* [`create-cartesi-wallet-template hello world`](#create-cartesi-wallet-template-hello-world)
+* [`create-cartesi-wallet-template help [COMMAND]`](#create-cartesi-wallet-template-help-command)
+* [`create-cartesi-wallet-template plugins`](#create-cartesi-wallet-template-plugins)
+* [`create-cartesi-wallet-template plugins:install PLUGIN...`](#create-cartesi-wallet-template-pluginsinstall-plugin)
+* [`create-cartesi-wallet-template plugins:inspect PLUGIN...`](#create-cartesi-wallet-template-pluginsinspect-plugin)
+* [`create-cartesi-wallet-template plugins:install PLUGIN...`](#create-cartesi-wallet-template-pluginsinstall-plugin-1)
+* [`create-cartesi-wallet-template plugins:link PLUGIN`](#create-cartesi-wallet-template-pluginslink-plugin)
+* [`create-cartesi-wallet-template plugins:uninstall PLUGIN...`](#create-cartesi-wallet-template-pluginsuninstall-plugin)
+* [`create-cartesi-wallet-template plugins reset`](#create-cartesi-wallet-template-plugins-reset)
+* [`create-cartesi-wallet-template plugins:uninstall PLUGIN...`](#create-cartesi-wallet-template-pluginsuninstall-plugin-1)
+* [`create-cartesi-wallet-template plugins:uninstall PLUGIN...`](#create-cartesi-wallet-template-pluginsuninstall-plugin-2)
+* [`create-cartesi-wallet-template plugins update`](#create-cartesi-wallet-template-plugins-update)
 
-## `cli hello PERSON`
+## `create-cartesi-wallet-template hello PERSON`
 
 Say hello
 
 ```
 USAGE
-  $ cli hello PERSON -f <value>
+  $ create-cartesi-wallet-template hello PERSON -f <value>
 
 ARGUMENTS
   PERSON  Person to say hello to
@@ -63,33 +63,33 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/gr4yha7/cartesi-hackathon/https://github.com/gr4yha7/cartesi-hackathon/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.0/src/commands/hello/index.ts)_
 
-## `cli hello world`
+## `create-cartesi-wallet-template hello world`
 
 Say hello world
 
 ```
 USAGE
-  $ cli hello world
+  $ create-cartesi-wallet-template hello world
 
 DESCRIPTION
   Say hello world
 
 EXAMPLES
-  $ cli hello world
+  $ create-cartesi-wallet-template hello world
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/gr4yha7/cartesi-hackathon/https://github.com/gr4yha7/cartesi-hackathon/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.0/src/commands/hello/world.ts)_
 
-## `cli help [COMMAND]`
+## `create-cartesi-wallet-template help [COMMAND]`
 
-Display help for cli.
+Display help for create-cartesi-wallet-template.
 
 ```
 USAGE
-  $ cli help [COMMAND...] [-n]
+  $ create-cartesi-wallet-template help [COMMAND...] [-n]
 
 ARGUMENTS
   COMMAND...  Command to show help for.
@@ -98,18 +98,18 @@ FLAGS
   -n, --nested-commands  Include all nested commands in the output.
 
 DESCRIPTION
-  Display help for cli.
+  Display help for create-cartesi-wallet-template.
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.18/src/commands/help.ts)_
 
-## `cli plugins`
+## `create-cartesi-wallet-template plugins`
 
 List installed plugins.
 
 ```
 USAGE
-  $ cli plugins [--json] [--core]
+  $ create-cartesi-wallet-template plugins [--json] [--core]
 
 FLAGS
   --core  Show core plugins.
@@ -121,18 +121,18 @@ DESCRIPTION
   List installed plugins.
 
 EXAMPLES
-  $ cli plugins
+  $ create-cartesi-wallet-template plugins
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.2/src/commands/plugins/index.ts)_
 
-## `cli plugins:install PLUGIN...`
+## `create-cartesi-wallet-template plugins:install PLUGIN...`
 
 Installs a plugin into the CLI.
 
 ```
 USAGE
-  $ cli plugins add plugins:install PLUGIN...
+  $ create-cartesi-wallet-template plugins add plugins:install PLUGIN...
 
 ARGUMENTS
   PLUGIN...  Plugin to install.
@@ -158,23 +158,23 @@ DESCRIPTION
 
 
 ALIASES
-  $ cli plugins add
+  $ create-cartesi-wallet-template plugins add
 
 EXAMPLES
-  $ cli plugins add myplugin 
+  $ create-cartesi-wallet-template plugins add myplugin 
 
-  $ cli plugins add https://github.com/someuser/someplugin
+  $ create-cartesi-wallet-template plugins add https://github.com/someuser/someplugin
 
-  $ cli plugins add someuser/someplugin
+  $ create-cartesi-wallet-template plugins add someuser/someplugin
 ```
 
-## `cli plugins:inspect PLUGIN...`
+## `create-cartesi-wallet-template plugins:inspect PLUGIN...`
 
 Displays installation properties of a plugin.
 
 ```
 USAGE
-  $ cli plugins inspect PLUGIN...
+  $ create-cartesi-wallet-template plugins inspect PLUGIN...
 
 ARGUMENTS
   PLUGIN...  [default: .] Plugin to inspect.
@@ -190,18 +190,18 @@ DESCRIPTION
   Displays installation properties of a plugin.
 
 EXAMPLES
-  $ cli plugins inspect myplugin
+  $ create-cartesi-wallet-template plugins inspect myplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.2/src/commands/plugins/inspect.ts)_
 
-## `cli plugins:install PLUGIN...`
+## `create-cartesi-wallet-template plugins:install PLUGIN...`
 
 Installs a plugin into the CLI.
 
 ```
 USAGE
-  $ cli plugins install PLUGIN...
+  $ create-cartesi-wallet-template plugins install PLUGIN...
 
 ARGUMENTS
   PLUGIN...  Plugin to install.
@@ -227,25 +227,25 @@ DESCRIPTION
 
 
 ALIASES
-  $ cli plugins add
+  $ create-cartesi-wallet-template plugins add
 
 EXAMPLES
-  $ cli plugins install myplugin 
+  $ create-cartesi-wallet-template plugins install myplugin 
 
-  $ cli plugins install https://github.com/someuser/someplugin
+  $ create-cartesi-wallet-template plugins install https://github.com/someuser/someplugin
 
-  $ cli plugins install someuser/someplugin
+  $ create-cartesi-wallet-template plugins install someuser/someplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.2/src/commands/plugins/install.ts)_
 
-## `cli plugins:link PLUGIN`
+## `create-cartesi-wallet-template plugins:link PLUGIN`
 
 Links a plugin into the CLI for development.
 
 ```
 USAGE
-  $ cli plugins link PLUGIN
+  $ create-cartesi-wallet-template plugins link PLUGIN
 
 ARGUMENTS
   PATH  [default: .] path to plugin
@@ -264,18 +264,18 @@ DESCRIPTION
 
 
 EXAMPLES
-  $ cli plugins link myplugin
+  $ create-cartesi-wallet-template plugins link myplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.2/src/commands/plugins/link.ts)_
 
-## `cli plugins:uninstall PLUGIN...`
+## `create-cartesi-wallet-template plugins:uninstall PLUGIN...`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ cli plugins remove plugins:uninstall PLUGIN...
+  $ create-cartesi-wallet-template plugins remove plugins:uninstall PLUGIN...
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -288,20 +288,20 @@ DESCRIPTION
   Removes a plugin from the CLI.
 
 ALIASES
-  $ cli plugins unlink
-  $ cli plugins remove
+  $ create-cartesi-wallet-template plugins unlink
+  $ create-cartesi-wallet-template plugins remove
 
 EXAMPLES
-  $ cli plugins remove myplugin
+  $ create-cartesi-wallet-template plugins remove myplugin
 ```
 
-## `cli plugins reset`
+## `create-cartesi-wallet-template plugins reset`
 
 Remove all user-installed and linked plugins.
 
 ```
 USAGE
-  $ cli plugins reset [--hard] [--reinstall]
+  $ create-cartesi-wallet-template plugins reset [--hard] [--reinstall]
 
 FLAGS
   --hard       Delete node_modules and package manager related files in addition to uninstalling plugins.
@@ -310,13 +310,13 @@ FLAGS
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.2/src/commands/plugins/reset.ts)_
 
-## `cli plugins:uninstall PLUGIN...`
+## `create-cartesi-wallet-template plugins:uninstall PLUGIN...`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ cli plugins uninstall PLUGIN...
+  $ create-cartesi-wallet-template plugins uninstall PLUGIN...
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -329,22 +329,22 @@ DESCRIPTION
   Removes a plugin from the CLI.
 
 ALIASES
-  $ cli plugins unlink
-  $ cli plugins remove
+  $ create-cartesi-wallet-template plugins unlink
+  $ create-cartesi-wallet-template plugins remove
 
 EXAMPLES
-  $ cli plugins uninstall myplugin
+  $ create-cartesi-wallet-template plugins uninstall myplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.2/src/commands/plugins/uninstall.ts)_
 
-## `cli plugins:uninstall PLUGIN...`
+## `create-cartesi-wallet-template plugins:uninstall PLUGIN...`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ cli plugins unlink plugins:uninstall PLUGIN...
+  $ create-cartesi-wallet-template plugins unlink plugins:uninstall PLUGIN...
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -357,20 +357,20 @@ DESCRIPTION
   Removes a plugin from the CLI.
 
 ALIASES
-  $ cli plugins unlink
-  $ cli plugins remove
+  $ create-cartesi-wallet-template plugins unlink
+  $ create-cartesi-wallet-template plugins remove
 
 EXAMPLES
-  $ cli plugins unlink myplugin
+  $ create-cartesi-wallet-template plugins unlink myplugin
 ```
 
-## `cli plugins update`
+## `create-cartesi-wallet-template plugins update`
 
 Update installed plugins.
 
 ```
 USAGE
-  $ cli plugins update [-h] [-v]
+  $ create-cartesi-wallet-template plugins update [-h] [-v]
 
 FLAGS
   -h, --help     Show CLI help.
