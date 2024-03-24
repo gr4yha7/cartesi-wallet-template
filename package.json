@@ -42,10 +42,7 @@
     "bin": "create-cartesi-wallet-template",
     "commands": "./dist/commands",
     "dirname": "cli",
-    "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
-    ],
+    "plugins": [],
     "topicSeparator": " ",
     "topics": {}
   },
