@@ -1,12 +1,18 @@
 {
-  "name": "cli",
-  "version": "0.0.0",
-  "description": "oclif example Hello World CLI (ESM)",
+  "name": "create-cartesi-wallet-template",
+  "version": "0.1.0",
+  "description": "A CLI app for setting up a simple Cartesi wallet interaction application (frontend + backend) using Javascript, Typescript and Rust language templates",
   "keywords": [
-    "oclif"
+    "cartesi",
+    "wallet",
+    "cartesi-wallet",
+    "cartesi-template",
+    "javascript template",
+    "typescript template",
+    "rust template"
   ],
-  "homepage": "https://github.com/https://github.com/gr4yha7/cartesi-hackathon",
-  "bugs": "https://github.com/https://github.com/gr4yha7/cartesi-hackathon/issues",
+  "homepage": "https://github.com/gr4yha7/cartesi-hackathon",
+  "bugs": "https://github.com/gr4yha7/cartesi-hackathon/issues",
   "repository": "https://github.com/gr4yha7/cartesi-hackathon",
   "license": "MIT",
   "author": "gr4yha7",
@@ -15,7 +21,7 @@
   "main": "",
   "types": "dist/index.d.ts",
   "bin": {
-    "cli": "./bin/run.js"
+    "create-cartesi-wallet-template": "./bin/run.js"
   },
   "files": [
     "/bin",
@@ -33,7 +39,7 @@
     "version": "oclif readme && git add README.md"
   },
   "oclif": {
-    "bin": "cli",
+    "bin": "create-cartesi-wallet-template",
     "commands": "./dist/commands",
     "dirname": "cli",
     "plugins": [
@@ -41,11 +47,7 @@
       "@oclif/plugin-plugins"
     ],
     "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
+    "topics": {}
   },
   "dependencies": {
     "@oclif/core": "^3",
