@@ -1,5 +1,5 @@
 {
-  "name": "create-cartesi-wallet-template",
+  "name": "cartesi-wallet-template",
   "version": "0.2.6",
   "description": "A CLI app for setting up a simple Cartesi wallet interaction application (frontend + backend) using Javascript, Typescript and Rust language templates",
   "keywords": [
@@ -11,9 +11,9 @@
     "typescript template",
     "rust template"
   ],
-  "homepage": "https://github.com/gr4yha7/cartesi-hackathon",
-  "bugs": "https://github.com/gr4yha7/cartesi-hackathon/issues",
-  "repository": "https://github.com/gr4yha7/cartesi-hackathon",
+  "homepage": "https://github.com/gr4yha7/cartesi-wallet-template",
+  "bugs": "https://github.com/gr4yha7/cartesi-wallet-template/issues",
+  "repository": "https://github.com/gr4yha7/cartesi-wallet-template",
   "license": "MIT",
   "author": "gr4yha7",
   "type": "module",
@@ -21,7 +21,7 @@
   "main": "",
   "types": "dist/index.d.ts",
   "bin": {
-    "create-cartesi-wallet-template": "./bin/run.js"
+    "cartesi-wallet-template": "./bin/run.js"
   },
   "files": [
     "/bin",
@@ -39,7 +39,7 @@
     "version": "oclif readme && git add README.md"
   },
   "oclif": {
-    "bin": "create-cartesi-wallet-template",
+    "bin": "cartesi-wallet-template",
     "commands": "./dist/commands",
     "dirname": "cli",
     "plugins": [],

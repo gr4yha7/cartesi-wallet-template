@@ -1,4 +1,4 @@
-create-cartesi-wallet-template
+cartesi-wallet-template
 =================
 
 A CLI app for setting up a simple Cartesi wallet interaction application using Javascript, Typescript and Rust language templates
@@ -10,28 +10,28 @@ A CLI app for setting up a simple Cartesi wallet interaction application using J
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g create-cartesi-wallet-template
-$ create-cartesi-wallet-template COMMAND
+$ npm install -g cartesi-wallet-template
+$ cartesi-wallet-template COMMAND
 running command...
-$ create-cartesi-wallet-template (--version)
-create-cartesi-wallet-template/0.2.6 darwin-arm64 node-v18.19.0
-$ create-cartesi-wallet-template --help [COMMAND]
+$ cartesi-wallet-template (--version)
+cartesi-wallet-template/0.2.6 darwin-arm64 node-v18.19.0
+$ cartesi-wallet-template --help [COMMAND]
 USAGE
-  $ create-cartesi-wallet-template COMMAND
+  $ cartesi-wallet-template COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`create-cartesi-wallet-template create NAME`](#create-cartesi-wallet-template-create-name)
+* [`cartesi-wallet-template create NAME`](#cartesi-wallet-template-create-name)
 
-## `create-cartesi-wallet-template create NAME`
+## `cartesi-wallet-template create NAME`
 
 Create application
 
 ```
 USAGE
-  $ create-cartesi-wallet-template create NAME --template javascript|typescript|rust [--branch <value>]
+  $ cartesi-wallet-template create NAME --template javascript|typescript|rust [--branch <value>]
 
 ARGUMENTS
   NAME  application and directory name
@@ -45,8 +45,8 @@ DESCRIPTION
   Create application
 
 EXAMPLES
-  $ create-cartesi-wallet-template create
+  $ cartesi-wallet-template create myApp --template javascript
 ```
 
-_See code: [src/commands/create.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.6/src/commands/create.ts)_
+_See code: [src/commands/create.ts](https://github.com/gr4yha7/cartesi-wallet-template/blob/v0.2.6/src/commands/create.ts)_
 <!-- commandsstop -->
