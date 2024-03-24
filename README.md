@@ -45,7 +45,7 @@ DESCRIPTION
   Create application
 
 EXAMPLES
-  $ cartesi-wallet-template create
+  $ cartesi-wallet-template create myApp --template javascript
 ```
 
 _See code: [src/commands/create.ts](https://github.com/gr4yha7/cartesi-wallet-template/blob/v0.3.0/src/commands/create.ts)_
