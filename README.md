@@ -18,7 +18,7 @@ $ npm install -g create-cartesi-wallet-template
 $ create-cartesi-wallet-template COMMAND
 running command...
 $ create-cartesi-wallet-template (--version)
-create-cartesi-wallet-template/0.2.0 darwin-arm64 node-v18.19.0
+create-cartesi-wallet-template/0.2.2 darwin-arm64 node-v18.19.0
 $ create-cartesi-wallet-template --help [COMMAND]
 USAGE
   $ create-cartesi-wallet-template COMMAND
@@ -53,7 +53,7 @@ EXAMPLES
   $ create-cartesi-wallet-template create backend
 ```
 
-_See code: [src/commands/create/backend.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.0/src/commands/create/backend.ts)_
+_See code: [src/commands/create/backend.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.2/src/commands/create/backend.ts)_
 
 ## `create-cartesi-wallet-template create frontend NAME`
 
@@ -76,5 +76,5 @@ EXAMPLES
   $ create-cartesi-wallet-template create frontend
 ```
 
-_See code: [src/commands/create/frontend.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.0/src/commands/create/frontend.ts)_
+_See code: [src/commands/create/frontend.ts](https://github.com/gr4yha7/cartesi-hackathon/blob/v0.2.2/src/commands/create/frontend.ts)_
 <!-- commandsstop -->
