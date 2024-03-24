@@ -8,7 +8,7 @@ const DEFAULT_TEMPLATES_BRANCH = "main";
 export default class CreateCommand extends Command {
     static description = "Create application";
 
-    static examples = ["<%= config.bin %> <%= command.id %>"];
+    static examples = ["<%= config.bin %> <%= command.id %> myApp --template javascript"];
 
     static args = {
         name: Args.string({
