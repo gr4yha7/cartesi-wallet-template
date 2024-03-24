@@ -1,6 +1,6 @@
 {
   "name": "create-cartesi-wallet-template",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A CLI app for setting up a simple Cartesi wallet interaction application (frontend + backend) using Javascript, Typescript and Rust language templates",
   "keywords": [
     "cartesi",
