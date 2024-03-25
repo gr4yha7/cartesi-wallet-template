@@ -47,7 +47,6 @@ export default class CreateCommand extends Command {
         return downloadTemplate(langTemplate, {
             dir: out,
             forceClean: true,
-            install: true,
         });
     }
 
